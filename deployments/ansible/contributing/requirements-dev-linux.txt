@@ -4,3 +4,4 @@ molecule==3.3.0
 molecule-docker==0.2.4
 docker==5.0.0
 urllib3>=1.26.18,<2
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
