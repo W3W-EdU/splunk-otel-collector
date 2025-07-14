@@ -4,3 +4,4 @@ ansible-lint==5.4.0
 molecule==4.0.4
 molecule-vagrant==2.0.0
 pywinrm==0.4.3
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
